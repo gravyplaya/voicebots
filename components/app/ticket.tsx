@@ -26,7 +26,7 @@ function Ticket({
     <div className={`bg-slate-100  rounded-xl`}>
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-wrap -mx-4">
-          <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
+          <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0 text-black">
             <img
               className="w-full rounded-lg shadow-lg"
               src={show.img}
@@ -34,7 +34,7 @@ function Ticket({
               width={200}
             />
           </div>
-          <div className="w-full lg:w-1/2 px-4">
+          <div className="w-full lg:w-1/2 px-4 text-black">
             <h1 className="text-3xl font-bold mb-4">{show.title}</h1>
 
             {type === "ticket" ? (

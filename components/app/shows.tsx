@@ -9,7 +9,7 @@ interface ShowsComponentProps {
 
 function ShowsComponent({ showList = [] }: ShowsComponentProps) {
   return (
-    <div className="flex gap-8 py-4">
+    <div className="flex gap-8 py-4 text-black">
       {showList.map((show) => (
         <div key={show.title}>
           <img
