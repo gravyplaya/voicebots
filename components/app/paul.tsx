@@ -4,8 +4,8 @@ import { useVapi } from "../../hooks/useVapi";
 import { AssistantButton } from "./assistantButton";
 import { Display } from "./display";
 
-function Assistant() {
-  const { toggleCall, callStatus, audioLevel } = useVapi("geoffrey");
+function Paul() {
+  const { toggleCall, callStatus, audioLevel } = useVapi("paul");
   return (
     <>
       <div className="chat-history">
@@ -22,4 +22,4 @@ function Assistant() {
   );
 }
 
-export { Assistant };
+export { Paul };

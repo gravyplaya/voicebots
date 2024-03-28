@@ -1,6 +1,7 @@
 "use client";
 
 import { assistant } from "@/assistants/assistant";
+import { Paul } from "@/assistants/paul";
 
 import {
   Message,
@@ -18,7 +19,7 @@ export enum CALL_STATUS {
   LOADING = "loading",
 }
 
-export function useVapi() {
+export function useVapi(assistantName: string) {
   const [isSpeechActive, setIsSpeechActive] = useState(false);
   const [callStatus, setCallStatus] = useState<CALL_STATUS>(
     CALL_STATUS.INACTIVE
@@ -92,8 +93,15 @@ export function useVapi() {
 
   const start = async () => {
     setCallStatus(CALL_STATUS.LOADING);
-    const response = vapi.start(assistant);
-
+    // const response = vapi.start(assistantName);
+    let response = new Promise((resolve) => resolve({}));
+    // pass in the assistant name
+    if (assistantName === "paul") {
+      response = vapi.start(Paul);
+    }
+    if (assistantName === "geoffrey") {
+      response = vapi.start(assistant);
+    }
     response.then((res) => {
       console.log("call", res);
     });
