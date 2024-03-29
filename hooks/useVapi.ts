@@ -2,6 +2,7 @@
 
 import { assistant } from "@/assistants/assistant";
 import { Paul } from "@/assistants/paul";
+import { tinydigs } from "@/assistants/tinydigs";
 
 import {
   Message,
@@ -101,6 +102,9 @@ export function useVapi(assistantName: string) {
     }
     if (assistantName === "geoffrey") {
       response = vapi.start(assistant);
+    }
+    if (assistantName === "tinydigs") {
+      response = vapi.start(tinydigs);
     }
     response.then((res) => {
       console.log("call", res);

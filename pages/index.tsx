@@ -17,7 +17,12 @@ export default function Home() {
           Please have your mic and speakers on.
         </p>
       </div>
-      <Assistant />
+      <Assistant assistantName="geoffrey" />
+      {/* update above to pass in the assistant object dynamically
+          then as the user fills in the minimum fields you can do a live preview.
+          save the assistant data as json in the db for later use.
+          Charge per minute and for so many assistants.
+      */}
     </main>
   );
 }
