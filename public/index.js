@@ -65851,10 +65851,9 @@ const dhe = `
   - The user's responses are being transcribed from speech, so expect some mistakes and don't correct them. Do not correct them if they mispronounce Tavonni Voice.
   - Keep all your responses short and simple. Use casual language, phrases like "Umm...", "Well...", and "I mean" are preferred.
   - Don't repeat yourself. If the user wants to take it in a funny direction, you can go with it.
-
-  This is a voice conversation, so keep your responses short, like in a real conversation. DON'T speak for over a sentence. Keep your responses to a sentence or two.
-  
-  You should try to be funny, witty, and entertaining!
+   - For clarity, use numerals for currency, phone numbers, and general figures.  For example, "two thousand dollars" respond back with "$2,000".
+  -   This is a voice conversation, so keep your responses short, like in a real conversation. DON'T speak for over a sentence. Keep your responses to a sentence or two.
+  -   You should try to be funny, witty, and entertaining!
 `,
   np = new URLSearchParams(window.location.search).get("apiUrl"),
   fhe =
@@ -91008,211 +91007,7 @@ c2.globalOptions = void 0;
 const ii = tn.span`
   color: #00a3ff;
 `,
-  l3e = [
-    {
-      testimonial: T.jsxs(T.Fragment, {
-        children: [
-          "YouTube tech wizard AI Jason has just dropped a mind-blowing video showcasing his latest creation with Relevance,",
-          " ",
-          T.jsx(ii, { children: "@Vapi_AI" }),
-          " and",
-          " ",
-          T.jsx(ii, { children: "@GroqInc" }),
-          " : a real-time, multi channel AI voice sales agent.",
-          T.jsx("br", {}),
-          T.jsx("br", {}),
-          " 🗣️ This isn't your run-of-the-mill chatbot.",
-        ],
-      }),
-      avatar:
-        "https://pbs.twimg.com/profile_images/1650045078533193728/8xmg_HEm_400x400.jpg",
-      name: "Relevance AI",
-      designation: "@RelevanceAI_",
-    },
-    {
-      testimonial: T.jsxs(T.Fragment, {
-        children: [
-          "What did we demo? A real-time, natural voice AI, powered by the Groq LPU Inference Engine over 12,000km and 12 timezones away. You know you've set new expectations when most of the audience takes out their cellphones and begin recording your demo. The future of AI is here in 2024, thanks to ",
-          T.jsx(ii, { children: "#GroqSpeed" }),
-          " 😀",
-          T.jsx("br", {}),
-          T.jsx("br", {}),
-          " Also thank you to those who created the software and AI that made it possible: ",
-          T.jsx(ii, { children: "Vapi" }),
-          ", Mistral AI, Deepgram, PlayHT, and AI at Meta.",
-        ],
-      }),
-      avatar:
-        "https://media.licdn.com/dms/image/D5603AQERSqj8uYNOAw/profile-displayphoto-shrink_100_100/0/1695008843260?e=1716422400&v=beta&t=mihgT0euK6-5Fs-vaKcpFUx3bZWmZOPcubSAtYGFvdQ",
-      name: "Jonathan Ross",
-      designation: "CEO & Founder, Groq",
-    },
-    {
-      testimonial: T.jsxs(T.Fragment, {
-        children: [
-          "I built an AI sales that do Cold Call & Whatsapp followup - powered by",
-          T.jsx(ii, { children: "@GroqInc" }),
-          " ,",
-          " ",
-          T.jsx(ii, { children: "@Vapi_AI" }),
-          " &",
-          " ",
-          T.jsx(ii, { children: "@RelevanceAI_" }),
-          T.jsx("br", {}),
-          T.jsx("br", {}),
-          "This AI Sales can: ",
-          T.jsx("br", {}),
-          "1. Outreach people on whatsapp ",
-          T.jsx("br", {}),
-          "2. Make phone call to follow up ",
-          T.jsx("br", {}),
-          "3. Take actions in CRM based on call transcript",
-        ],
-      }),
-      avatar:
-        "https://pbs.twimg.com/profile_images/1613651966663749632/AuQiWkVc_400x400.jpg",
-      name: "Jason Zhou (AI Jason)",
-      designation: "@jasonzhou1993",
-    },
-    {
-      testimonial: T.jsx(T.Fragment, {
-        children:
-          'You can "call" both functions and telephone numbers with the @Vapi_AI APIs 🥁🥁🥁',
-      }),
-      avatar:
-        "https://pbs.twimg.com/profile_images/1705353624883548160/6-uk6V2x_400x400.jpg",
-      name: "Daily",
-      designation: "@trydaily",
-    },
-    {
-      testimonial: T.jsxs(T.Fragment, {
-        children: [
-          "I have been using Vapi for the last 2 weeks to build a voice-based chat app. You can",
-          " ",
-          T.jsx("a", {
-            href: "https://testflight.apple.com/join/vYkfwoti",
-            children: T.jsx(ii, { children: "join the TestFlight here... " }),
-          }),
-          T.jsx("br", {}),
-          T.jsx("br", {}),
-          " At every step of the way, the team at",
-          " ",
-          T.jsx(ii, { children: "Vapi" }),
-          " have been incredible. They reached out, pro-actively asked for feedback, and helped me overcome roadblocks all the time. ",
-          T.jsx("br", {}),
-          T.jsx("br", {}),
-          "I spent time at Stripe in 2012 and I saw what it takes to design and support a great API. This team has that kind of magic. Incredibly bullish on them.",
-        ],
-      }),
-      avatar:
-        "https://ph-avatars.imgix.net/1644/original.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=36&h=36&fit=crop&dpr=2",
-      name: "Richard Burton",
-      designation: "CEO, Balance IO",
-    },
-    {
-      testimonial: T.jsxs(T.Fragment, {
-        children: [
-          "Yeah, definitely take a look at",
-          " ",
-          T.jsx(ii, { children: "@Vapi_AI" }),
-          ". Really good developer ergonomics.",
-          T.jsx("br", {}),
-          T.jsx("br", {}),
-          " You can get started quickly, but their APIs also give you a lot of flexibility. And they've solved a bunch of the hard, low-level stuff so you don't have to worry about things like echo cancellation, picking the fastest endpoints if you're using Azure, web socket reconnection logic across different platforms, supporting WebRTC (apps, web pages) and PSTN (telephones) from the same codebase, etc etc etc.",
-        ],
-      }),
-      avatar:
-        "https://pbs.twimg.com/profile_images/515880674406838272/OYJY8Tv9_400x400.png",
-      name: "Kwindla Kramer",
-      designation: "CEO & Co-founder, Daily",
-    },
-    {
-      testimonial: T.jsxs(T.Fragment, {
-        children: [
-          "We've been using ",
-          T.jsx(ii, { children: "Vapi" }),
-          " for the last couple months to power Speaksage, our AI for leadership development platforms. ",
-          T.jsx("br", {}),
-          T.jsx("br", {}),
-          "We've looked at every conversational voice vendor on the market - and used most of them - and ",
-          T.jsx(ii, { children: "Vapi" }),
-          " is by far the best out there. The product is rock-solid, the features are there, and the docs are good. They've built a hell of a lot to help with latency and interruption handling. And, best of all, the team is SUPER responsive.",
-        ],
-      }),
-      avatar:
-        "https://ph-avatars.imgix.net/156853/original.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=36&h=36&fit=crop&dpr=2",
-      name: "Charlie Stigler",
-      designation: "Founder, SpeakSage",
-    },
-    {
-      testimonial: T.jsxs(T.Fragment, {
-        children: [
-          "I used ",
-          T.jsx(ii, { children: "Vapi" }),
-          " to build a Shopify app to help recover abandonment checkouts and it made the entire process extremely simple. If you've tried to build a voice system before you know you need to connect a bunch of APIs and then still have to face the latency issue and make it sound natural, specifically when the speaker is cut off, etc. ",
-          T.jsx("br", {}),
-          T.jsx("br", {}),
-          "These guys care about building something great which is awesome to see! They even went out of their way to open a direct line of communication for support and feedback. Keep killing it Jordan, Nikil, and the Vapi team!",
-        ],
-      }),
-      avatar:
-        "https://ph-avatars.imgix.net/5818107/original.jpeg?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=36&h=36&fit=crop&dpr=2",
-      name: "Cael Stewart",
-      designation: "CTO, Chirpish",
-    },
-    {
-      testimonial: T.jsxs(T.Fragment, {
-        children: [
-          "The ",
-          T.jsx(ii, { children: "@Vapi_AI" }),
-          " team were an early partner to Groq and have a great quality of product. Definitely check them out.",
-        ],
-      }),
-      avatar:
-        "https://pbs.twimg.com/profile_images/1713596447122157568/7k_8IbZC_400x400.jpg",
-      name: "Mark Heaps",
-      designation: "Chief-Evangelist, Groq",
-    },
-    {
-      testimonial: T.jsxs(T.Fragment, {
-        children: [
-          T.jsx(ii, { children: "@Vapi_AI" }),
-          " thank you for making my end to end journey easier by:",
-          T.jsx("br", {}),
-          T.jsx("br", {}),
-          "1. Optimizing streaming and colocating servers that shave off every possible millisecond of latency",
-          T.jsx("br", {}),
-          T.jsx("br", {}),
-          "2. Customizing by allowing to connect to WebRTC stream through Web, iOS and Python clients",
-          T.jsx("br", {}),
-          T.jsx("br", {}),
-          "3. Easy Scaling",
-        ],
-      }),
-      avatar:
-        "https://pbs.twimg.com/profile_images/1646352930453475329/g7SLkkgf_400x400.jpg",
-      name: "Deepgram",
-      designation: "@DeepgramAI",
-    },
-    {
-      testimonial: T.jsxs(T.Fragment, {
-        children: [
-          "Building a high-quality production-ready voice agent on",
-          " ",
-          T.jsx(ii, { children: "Vapi" }),
-          " was incredibly easy for me.",
-          " ",
-          T.jsx("br", {}),
-          T.jsx("br", {}),
-          "I notice new features being released almost daily, and the support provided is exceptional. Keep up the excellent work!",
-        ],
-      }),
-      avatar:
-        "https://ph-avatars.imgix.net/6596350/36ba8b25-02a9-40ac-98fa-8a7a3137d1c5.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=36&h=36&fit=crop&dpr=2",
-      name: "Bob Wisely",
-      designation: "Founder, Retexts",
-    },
-  ],
+  l3e = [],
   c3e = "Testimonials",
   u3e = "What people are saying about us";
 function d3e() {
@@ -91228,89 +91023,6 @@ function d3e() {
         children: T.jsx("img", {
           className: "lg:min-w-[600px] mx-auto blur-xl",
           src: tpe,
-        }),
-      }),
-      //   T.jsxs("div", {
-      //     className:
-      //       "flex flex-col flex-wrap gap-6 text-center w-full max-w-[720px] mx-auto px-2 sm:px-14 md:px-18",
-      //     children: [
-      //       T.jsx(ft.div, {
-      //         ref: n,
-      //         variants: pr,
-      //         initial: "hidden",
-      //         animate: r,
-      //         children: T.jsx(Uu, { text: c3e }),
-      //       }),
-      //       T.jsx(ft.h3, {
-      //         ref: t,
-      //         variants: Dr,
-      //         initial: "hidden",
-      //         animate: e,
-      //         className:
-      //           "-mt-px pb-5 flex flex-1 flex-wrap justify-center text-center lg:flex-nowrap bg-gradient-to-b from-white to-[rgba(187,242,235,0.8)] bg-clip-text text-transparent font-heading text-3xl relative font-bold lg:text-[40px] lg:leading-[56px]",
-      //         children: u3e,
-      //       }),
-      //     ],
-      //   }),
-      T.jsx("div", {
-        className: "relative w-full",
-        children: T.jsx("div", {
-          className: "space-x-4 mx-auto rounded-lg pb-6 w-full",
-          children: T.jsx(JC, {
-            opts: { align: "start", loop: !0, dragFree: !0 },
-            plugins: [c2({ speed: 1, stopOnInteraction: !1 })],
-            children: T.jsx(KC, {
-              className: "max-w-[90vw]",
-              children: l3e.map((i, o) =>
-                T.jsx(
-                  e8,
-                  {
-                    className: "max-w-[90vw] md:max-w-[326px] px-2",
-                    children: T.jsxs("div", {
-                      className:
-                        " p-8 bg-white bg-opacity-5 backdrop-blur-sm rounded-2xl border-[0.5px] border-grays-5 flex-col justify-start items-start gap-6 inline-flex",
-                      children: [
-                        T.jsx("div", {
-                          className:
-                            "self-stretch text-zinc-200 text-sm font-normal  leading-relaxed",
-                          children: i.testimonial,
-                        }),
-                        T.jsxs("div", {
-                          className:
-                            "self-stretch justify-start items-center gap-4 inline-flex",
-                          children: [
-                            T.jsx("img", {
-                              className: "w-10 h-10 rounded-[100px]",
-                              src: i.avatar
-                                ? i.avatar
-                                : "https://i.pravatar.cc/40",
-                            }),
-                            T.jsxs("div", {
-                              className:
-                                "grow shrink basis-0 self-stretch flex-col justify-start items-start inline-flex",
-                              children: [
-                                T.jsx("div", {
-                                  className:
-                                    "self-stretch text-white text-sm font-bold leading-snug",
-                                  children: i.name,
-                                }),
-                                T.jsx("div", {
-                                  className:
-                                    "self-stretch text-neutral-400 text-sm font-normal  leading-relaxed",
-                                  children: i.designation,
-                                }),
-                              ],
-                            }),
-                          ],
-                        }),
-                      ],
-                    }),
-                  },
-                  o
-                )
-              ),
-            }),
-          }),
         }),
       }),
     ],
@@ -91948,31 +91660,13 @@ const _3e = [
             "relative flex justify-center align-center w-full mt-8 py-12 px-0 sm:px-8 md:px-12",
           children: T.jsx(Swe, {}),
         }),
-        // T.jsx("section", {
-        //   className:
-        //     "relative flex justify-center align-center w-full mt-8 py-12 px-0 sm:px-8 md:px-12",
-        //   children: T.jsx(B2e, {}),
-        // }),
-        // T.jsx("section", {
-        //   className:
-        //     "relative flex justify-center align-center w-full mt-8 py-12 px-0 sm:px-8 md:px-12",
-        //   children: T.jsx(P2e, {}),
-        // }),
-        // T.jsx("section", {
-        //   className:
-        //     "relative flex justify-center align-center w-full mt-8 py-12 px-0 sm:px-8 md:px-12",
-        //   children: T.jsx(O2e, {}),
-        // }),
+
         T.jsx("section", {
           className:
             "relative flex justify-center align-center w-full mt-8 py-12 px-0 sm:px-8 md:px-12",
           children: T.jsx(Mwe, {}),
         }),
-        // T.jsx("section", {
-        //   className:
-        //     "relative flex justify-center align-center w-full mt-8 py-12 px-0 sm:px-8 md:px-12",
-        //   children: T.jsx(xwe, {}),
-        // }),
+
         T.jsx("footer", {
           className:
             "flex-none justify-center align-center w-full px-0 sm:px-8 md:px-12",
