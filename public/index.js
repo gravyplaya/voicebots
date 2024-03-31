@@ -70390,8 +70390,8 @@ const Y0e = (t) =>
     // { name: "Security", url: "https://security.vapi.ai" },
     // { name: "Enterprise", url: "https://calendly.com/d/ckyn-s5t-vs4" },
     // { name: "Blog", url: "https://blog.vapi.ai" },
-    { name: "Privacy Policy", url: "https://code.vapi.ai/privacy/" },
-    { name: "Terms of Service", url: "https://code.vapi.ai/terms-of-service/" },
+    // { name: "Privacy Policy", url: "https://code.vapi.ai/privacy/" },
+    // { name: "Terms of Service", url: "https://code.vapi.ai/terms-of-service/" },
   ],
   X0e = [
     // {
